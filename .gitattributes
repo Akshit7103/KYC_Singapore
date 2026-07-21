@@ -1,0 +1,18 @@
+# Normalize text to LF in the repo; check out native on Windows.
+* text=auto
+
+# Binary assets — never apply line-ending conversion. Git heuristically
+# detected the seed PDFs as text, which would corrupt them on checkout.
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.db   binary
+*.zip  binary
+
+# Shell scripts must keep LF even when checked out on Windows.
+*.sh   text eol=lf
+
+# Windows batch files need CRLF.
+*.bat  text eol=crlf

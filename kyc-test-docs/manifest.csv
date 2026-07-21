@@ -1,0 +1,49 @@
+﻿file,customer_id,language,doc_type,format,scenario,target_check,expected_flag,notes
+C001-EN_form_en.pdf,C001-EN,en,application_form,digital,clean,-,-,(should pass - no flag expected)
+C001-EN_form_en.pdf,C001-EN,en,application_form,scanned,clean,-,-,(should pass - no flag expected)
+C001-EN_id_en.pdf,C001-EN,en,identity_document,digital,clean,-,-,(should pass - no flag expected)
+C001-EN_id_en.pdf,C001-EN,en,identity_document,scanned,clean,-,-,(should pass - no flag expected)
+C002-EN_form_en.pdf,C002-EN,en,application_form,digital,kyc01,KYC01,Incomplete KYC,KYC_01: DOB and Risk Category left blank
+C002-EN_form_en.pdf,C002-EN,en,application_form,scanned,kyc01,KYC01,Incomplete KYC,KYC_01: DOB and Risk Category left blank
+C002-EN_id_en.pdf,C002-EN,en,identity_document,digital,clean,-,-,(should pass - no flag expected)
+C002-EN_id_en.pdf,C002-EN,en,identity_document,scanned,clean,-,-,(should pass - no flag expected)
+C003-EN_form_en.pdf,C003-EN,en,application_form,digital,kyc02,KYC02,Poor Documentation,KYC_02: write-up fields contain 'NA' / 'Same'
+C003-EN_form_en.pdf,C003-EN,en,application_form,scanned,kyc02,KYC02,Poor Documentation,KYC_02: write-up fields contain 'NA' / 'Same'
+C003-EN_id_en.pdf,C003-EN,en,identity_document,digital,clean,-,-,(should pass - no flag expected)
+C003-EN_id_en.pdf,C003-EN,en,identity_document,scanned,clean,-,-,(should pass - no flag expected)
+C004-EN_form_en.pdf,C004-EN,en,application_form,digital,kyc09,KYC09,Incomplete Profile,KYC_09: Industry and Source of Wealth left blank
+C004-EN_form_en.pdf,C004-EN,en,application_form,scanned,kyc09,KYC09,Incomplete Profile,KYC_09: Industry and Source of Wealth left blank
+C004-EN_id_en.pdf,C004-EN,en,identity_document,digital,clean,-,-,(should pass - no flag expected)
+C004-EN_id_en.pdf,C004-EN,en,identity_document,scanned,clean,-,-,(should pass - no flag expected)
+C005-EN_form_en.pdf,C005-EN,en,application_form,digital,clean,-,-,(should pass - no flag expected)
+C005-EN_form_en.pdf,C005-EN,en,application_form,scanned,clean,-,-,(should pass - no flag expected)
+C005-EN_id_en.pdf,C005-EN,en,identity_document,digital,kyc04,KYC04,Invalid Document,KYC_04: passport expiry date 2023-08-14 (expired)
+C005-EN_id_en.pdf,C005-EN,en,identity_document,scanned,kyc04,KYC04,Invalid Document,KYC_04: passport expiry date 2023-08-14 (expired)
+C006-EN_form_en.pdf,C006-EN,en,application_form,digital,clean,-,-,(should pass - no flag expected)
+C006-EN_form_en.pdf,C006-EN,en,application_form,scanned,clean,-,-,(should pass - no flag expected)
+C006-EN_id_en.pdf,C006-EN,en,identity_document,digital,kyc05,KYC05,Data Mismatch,"KYC_05: ID name differs from application form name (form='Christopher Paul Bennett', ID='Christopher Paul Barnett')"
+C006-EN_id_en.pdf,C006-EN,en,identity_document,scanned,kyc05,KYC05,Data Mismatch,"KYC_05: ID name differs from application form name (form='Christopher Paul Bennett', ID='Christopher Paul Barnett')"
+C001-ZH_form_zh.pdf,C001-ZH,zh,application_form,digital,clean,-,-,(should pass - no flag expected)
+C001-ZH_form_zh.pdf,C001-ZH,zh,application_form,scanned,clean,-,-,(should pass - no flag expected)
+C001-ZH_id_zh.pdf,C001-ZH,zh,identity_document,digital,clean,-,-,(should pass - no flag expected)
+C001-ZH_id_zh.pdf,C001-ZH,zh,identity_document,scanned,clean,-,-,(should pass - no flag expected)
+C002-ZH_form_zh.pdf,C002-ZH,zh,application_form,digital,kyc01,KYC01,Incomplete KYC,KYC_01: DOB and Risk Category left blank
+C002-ZH_form_zh.pdf,C002-ZH,zh,application_form,scanned,kyc01,KYC01,Incomplete KYC,KYC_01: DOB and Risk Category left blank
+C002-ZH_id_zh.pdf,C002-ZH,zh,identity_document,digital,clean,-,-,(should pass - no flag expected)
+C002-ZH_id_zh.pdf,C002-ZH,zh,identity_document,scanned,clean,-,-,(should pass - no flag expected)
+C003-ZH_form_zh.pdf,C003-ZH,zh,application_form,digital,kyc02,KYC02,Poor Documentation,KYC_02: write-up fields contain 'NA' / 'Same'
+C003-ZH_form_zh.pdf,C003-ZH,zh,application_form,scanned,kyc02,KYC02,Poor Documentation,KYC_02: write-up fields contain 'NA' / 'Same'
+C003-ZH_id_zh.pdf,C003-ZH,zh,identity_document,digital,clean,-,-,(should pass - no flag expected)
+C003-ZH_id_zh.pdf,C003-ZH,zh,identity_document,scanned,clean,-,-,(should pass - no flag expected)
+C004-ZH_form_zh.pdf,C004-ZH,zh,application_form,digital,kyc09,KYC09,Incomplete Profile,KYC_09: Industry and Source of Wealth left blank
+C004-ZH_form_zh.pdf,C004-ZH,zh,application_form,scanned,kyc09,KYC09,Incomplete Profile,KYC_09: Industry and Source of Wealth left blank
+C004-ZH_id_zh.pdf,C004-ZH,zh,identity_document,digital,clean,-,-,(should pass - no flag expected)
+C004-ZH_id_zh.pdf,C004-ZH,zh,identity_document,scanned,clean,-,-,(should pass - no flag expected)
+C005-ZH_form_zh.pdf,C005-ZH,zh,application_form,digital,clean,-,-,(should pass - no flag expected)
+C005-ZH_form_zh.pdf,C005-ZH,zh,application_form,scanned,clean,-,-,(should pass - no flag expected)
+C005-ZH_id_zh.pdf,C005-ZH,zh,identity_document,digital,kyc04,KYC04,Invalid Document,KYC_04: passport expiry date 2023-08-14 (expired)
+C005-ZH_id_zh.pdf,C005-ZH,zh,identity_document,scanned,kyc04,KYC04,Invalid Document,KYC_04: passport expiry date 2023-08-14 (expired)
+C006-ZH_form_zh.pdf,C006-ZH,zh,application_form,digital,clean,-,-,(should pass - no flag expected)
+C006-ZH_form_zh.pdf,C006-ZH,zh,application_form,scanned,clean,-,-,(should pass - no flag expected)
+C006-ZH_id_zh.pdf,C006-ZH,zh,identity_document,digital,kyc05,KYC05,Data Mismatch,"KYC_05: ID name differs from application form name (form='黄俊杰', ID='黄俊豪')"
+C006-ZH_id_zh.pdf,C006-ZH,zh,identity_document,scanned,kyc05,KYC05,Data Mismatch,"KYC_05: ID name differs from application form name (form='黄俊杰', ID='黄俊豪')"
